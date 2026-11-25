@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en-ZA" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Luxury & Performance Used Cars for Sale in Cape Town | Exclusive Auto Group</title>
+<meta name="description" content="Browse every car in stock at Exclusive Auto Group, N1 City: Lamborghini, McLaren, Porsche, Mercedes-AMG, BMW M, Bentley and more. Filter by make, body, price, year, mileage and engine.">
+<link rel="canonical" href="https://demo.pixelcode.co.za/exclusiveautogroup/inventory.html">
+<meta property="og:type" content="website"><meta property="og:title" content="Luxury & Performance Used Cars for Sale in Cape Town | Exclusive Auto Group"><meta property="og:description" content="Browse every car in stock at Exclusive Auto Group, N1 City: Lamborghini, McLaren, Porsche, Mercedes-AMG, BMW M, Bentley and more. Filter by make, body, price, year, mileage and engine."><meta property="og:url" content="https://demo.pixelcode.co.za/exclusiveautogroup/inventory.html"><meta property="og:site_name" content="Exclusive Auto Group"><meta property="og:locale" content="en_ZA"><meta property="og:image" content="https://demo.pixelcode.co.za/exclusiveautogroup/assets/img/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Exclusive Auto Group logo">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://demo.pixelcode.co.za/exclusiveautogroup/assets/img/og-image.jpg">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>(function(){try{var t=localStorage.getItem('eag-theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css?v=66">
+</head>
+<body data-page="inventory">
+<main id="main">
+<section class="page-hero page-hero--img"><img src="assets/img/hero-1-showroom.jpg" alt="" data-kenburns><div class="wrap reveal">
+<span class="eyebrow">In the lot now</span><h1 class="h2"><span class="l1">All</span><span class="l2">Inventory</span></h1><div class="count-pill"><b id="inv-total">0</b> vehicles in stock</div></div><span class="scroll-dot" aria-hidden="true"></span></section>
+<section class="inv sec--alt"><div class="wrap inv-layout">
+ <aside class="filter-side" id="filter-side" aria-label="Filters">
+  <form>
+   <div class="fx-head"><b>Filters</b><button type="button" class="fx-clear" data-clear>Clear all</button><button type="button" class="fx-x" data-close-filters aria-label="Close filters">×</button></div>
+   <label class="fx-search"><span class="sr-only">Search</span><input id="fx-q" type="search" placeholder="Search model, e.g. G63, CSL, Raptor"></label>
+   <div class="fx-presets"><button type="button" data-preset="supercars">Supercars</button><button type="button" data-preset="suv">SUVs</button><button type="button" data-preset="under1m">Under R1m</button><button type="button" data-preset="low-km">Low km</button><button type="button" data-preset="v8">V8</button><button type="button" data-preset="bakkie">Bakkies</button></div>
+   <details class="fx-group" open><summary>Make</summary><div class="fx-body"><div id="fx-make" class="fx-list"></div></div></details><details class="fx-group" open><summary>Body type</summary><div class="fx-body"><div id="fx-body" class="fx-pills"></div></div></details><details class="fx-group" open><summary>Price</summary><div class="fx-body"><div class="fx-range"><output id="o-price"></output><label><span class="sr-only">Minimum price</span><input type="range" id="fx-pmin"></label><label><span class="sr-only">Maximum price</span><input type="range" id="fx-pmax"></label></div></div></details><details class="fx-group" open><summary>Year</summary><div class="fx-body"><div class="fx-two"><label><span class="sr-only">Year from</span><select id="fx-ymin"></select></label><label><span class="sr-only">Year to</span><select id="fx-ymax"></select></label></div></div></details><details class="fx-group" open><summary>Mileage</summary><div class="fx-body"><div class="fx-range"><output id="o-km"></output><label><span class="sr-only">Maximum mileage</span><input type="range" id="fx-km" min="0"></label></div></div></details><details class="fx-group" ><summary>Fuel</summary><div class="fx-body"><div id="fx-fuel" class="fx-list"></div></div></details><details class="fx-group" ><summary>Gearbox</summary><div class="fx-body"><div id="fx-trans" class="fx-list"></div></div></details><details class="fx-group" ><summary>Engine</summary><div class="fx-body"><div id="fx-engine" class="fx-list"></div></div></details>
+   <button type="button" class="btn btn--solid btn--block fx-done" data-close-filters>Show <span id="fx-open-count">0</span> cars</button>
+  </form>
+ </aside>
+ <div class="inv-main">
+  <div class="inv-bar"><button type="button" class="btn fx-open" id="fx-open" aria-expanded="false" aria-controls="filter-side">Filters</button>
+   <span class="tiny" id="inv-count" aria-live="polite"></span>
+   <label class="inv-sort"><span class="tiny">Sort</span><select id="fx-sort"><option value="newest">Newest arrivals</option><option value="price-desc">Price: high to low</option><option value="price-asc">Price: low to high</option><option value="km-asc">Lowest mileage</option><option value="year-desc">Newest model year</option><option value="kw-desc">Most powerful</option></select></label></div>
+  <div class="active-chips" id="active-chips"></div>
+  <div class="grid-cards" id="inv-grid"></div>
+  <p class="form-note" style="margin-top:32px">Engine and power figures are manufacturer specifications for the model; confirm the exact car with our sales team.</p>
+ </div>
+</div></section>
+<div class="filter-scrim" data-close-filters></div><section class="cta"><div class="wrap"><h2 class="h2 h2--sm reveal"><span class="l1">Book a test drive</span><span class="l2">Today</span></h2>
+<div class="cta-clock reveal" data-clock aria-live="off"><span class="cc-label">Cape Town · live</span><div class="cc-time" aria-hidden="true"></div><span class="sr-only cc-sr"></span><span class="cc-date"></span><span class="cc-status" data-hours-status></span></div>
+<a class="btn reveal" href="contact.html?type=test-drive" data-track="cta_test_drive">Schedule test drive</a></div></section>
+</main>
+<script src="data/stock.js?v=66"></script>
+<script src="data/inspections.js?v=66"></script>
+<script src="assets/js/common.js?v=66"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/js/inventory.js?v=66" defer></script>
+<script src="assets/js/chat.js?v=66" defer></script>
+</body>
+</html>
