@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en-ZA" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Car details | Exclusive Auto Group</title>
+<meta name="description" content="Vehicle details, photos and specs at Exclusive Auto Group, Cape Town.">
+<link rel="canonical" href="https://demo.pixelcode.co.za/exclusiveautogroup/car.html">
+<meta property="og:type" content="website"><meta property="og:title" content="Car details | Exclusive Auto Group"><meta property="og:description" content="Vehicle details, photos and specs at Exclusive Auto Group, Cape Town."><meta property="og:url" content="https://demo.pixelcode.co.za/exclusiveautogroup/car.html"><meta property="og:site_name" content="Exclusive Auto Group"><meta property="og:locale" content="en_ZA"><meta property="og:image" content="https://demo.pixelcode.co.za/exclusiveautogroup/assets/img/og-image.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:alt" content="Exclusive Auto Group logo">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:image" content="https://demo.pixelcode.co.za/exclusiveautogroup/assets/img/og-image.jpg">
+<meta name="theme-color" content="#0A0A0A">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<script>(function(){try{var t=localStorage.getItem('eag-theme');if(!t)t=matchMedia('(prefers-color-scheme: light)').matches?'light':'dark';document.documentElement.setAttribute('data-theme',t)}catch(e){}})();</script>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css?v=66">
+</head>
+<body data-page="car">
+<main id="main">
+
+<section class="film film--hero" id="film" aria-label="The story of this car. Scroll to play.">
+ <div class="film-stage"><canvas id="film-canvas" aria-hidden="true"></canvas><div class="film-shade"></div>
+  <div class="film-title wrap"><span class="tiny" id="film-crumb"><a href="inventory.html">Inventory</a> / <span id="film-crumb-car"></span></span><h1 id="car-h1"></h1><div class="film-price" id="film-price"></div></div>
+  <div class="film-caption"><span class="eyebrow" id="film-eyebrow"></span><div class="film-big" id="film-big"></div><p class="film-text" id="film-text"></p></div>
+  <ol class="film-chapters" id="film-chapters" aria-hidden="true"></ol>
+  <div class="film-meta"><span id="film-count">01</span><i class="film-line"><b id="film-prog"></b></i><span>Scroll</span></div>
+  <span class="scroll-dot" aria-hidden="true"></span>
+ </div>
+</section>
+<section class="sec sec--black" style="padding-top:72px"><div class="wrap detail">
+ <div>
+  <span class="eyebrow">Specification</span><h2 class="h3">Key details</h2>
+  <dl class="spec-grid" id="spec-grid"></dl>
+  <span class="eyebrow">Features &amp; history</span><h2 class="h3">What's included</h2>
+  <ul class="features" id="features"></ul>
+  <div class="trade-cta insp-cta reveal"><div><span class="eyebrow">Inspection</span><h2 class="h3">Full inspection report on request</h2><p class="lede" style="margin-top:8px">Ask for the full condition report and service book before you view.</p></div><a class="btn" id="insp-link" href="contact.html?type=enquiry" data-track="inspection_request">Request the report</a></div>
+  <div class="trade-cta reveal"><div><span class="eyebrow">Trade-in</span><h2 class="h3">Trading in your car?</h2><p class="lede" style="margin-top:8px">Get a fair value in five quick steps and put it towards this one.</p></div><a class="btn btn--solid" id="trade-link" href="sell.html">Value my car</a></div>
+ </div>
+ <aside class="sticky-panel" id="panel" aria-label="Price and enquiry"></aside>
+</div></section>
+<section class="car-strip" aria-label="All photos of this car">
+ <div class="wrap car-strip-head"><div><span class="eyebrow">Every angle</span><h2 class="h2 h2--sm"><span class="l1">The full</span><span class="l2">Gallery</span></h2></div><span class="tiny" id="strip-count"></span></div>
+ <div class="car-strip-row" id="car-strip"></div>
+</section>
+<section class="dash-sec" aria-label="Instrument cluster"><div class="wrap"><div class="dash" id="dash"></div></div></section>
+<section class="sec sec--navy"><div class="wrap"><div class="sec-head"><div><span class="eyebrow">You may also like</span><h2 class="h2 h2--sm"><span class="l1">Similar</span><span class="l2">Cars</span></h2></div>
+<div class="car-nav" id="sim-nav"><button type="button" class="round-btn" id="sim-prev" aria-label="Previous cars"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true" style="transform:rotate(180deg)"><path d="M0 6h16M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></button><span class="car-nav-count" id="sim-count">01 / 01</span><button type="button" class="round-btn" id="sim-next" aria-label="Next cars"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true"><path d="M0 6h16M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></button></div></div>
+<div class="carousel" id="similar-carousel" aria-roledescription="carousel" aria-label="Similar cars"><div class="carousel-track" id="similar"></div></div>
+<div class="carousel-foot"><div class="carousel-progress" id="sim-foot"><i id="sim-bar"></i></div><a class="link-arrow" href="inventory.html">View all inventory <svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true"><path d="M0 6h16M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></a></div></div></section>
+<div class="lightbox" id="lightbox" hidden role="dialog" aria-modal="true" aria-label="Photo viewer"><button type="button" class="lb-x" aria-label="Close">×</button><button type="button" class="lb-prev" aria-label="Previous photo"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true" style="transform:rotate(180deg)"><path d="M0 6h16M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></button><img alt=""><button type="button" class="lb-next" aria-label="Next photo"><svg width="18" height="12" viewBox="0 0 18 12" fill="none" aria-hidden="true"><path d="M0 6h16M11 1l5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></button><span class="lb-count"></span></div><section class="cta"><div class="wrap"><h2 class="h2 h2--sm reveal"><span class="l1">Book a test drive</span><span class="l2">Today</span></h2>
+<div class="cta-clock reveal" data-clock aria-live="off"><span class="cc-label">Cape Town · live</span><div class="cc-time" aria-hidden="true"></div><span class="sr-only cc-sr"></span><span class="cc-date"></span><span class="cc-status" data-hours-status></span></div>
+<a class="btn reveal" href="contact.html?type=test-drive" data-track="cta_test_drive">Schedule test drive</a></div></section>
+</main>
+<script src="data/stock.js?v=66"></script>
+<script src="data/inspections.js?v=66"></script>
+<script src="assets/js/common.js?v=66"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/lenis@1.1.13/dist/lenis.min.js" defer></script>
+<script src="assets/js/car.js?v=66" defer></script>
+<script src="assets/js/chat.js?v=66" defer></script>
+</body>
+</html>
