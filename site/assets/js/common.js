@@ -365,7 +365,6 @@
       if (introDone) return; introDone = true; setP(1);
       status.textContent = 'Ready';
       curtain.classList.add('is-press');
-      if (navigator.vibrate) navigator.vibrate(30);
       setTimeout(() => { curtain.classList.add('is-ignite'); }, 260);
       setTimeout(() => { curtain.classList.remove('is-on', 'is-intro'); curtain.setAttribute('aria-hidden', 'true'); }, 900);
       setTimeout(() => { curtain.classList.remove('is-start', 'is-press', 'is-ignite'); curtain.innerHTML = '<img src="assets/img/logo.png" alt="" width="200" height="50">'; }, 1500);
